@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2026 AerynOS Developers
+# SPDX-License-Identifier: MPL-2.0
+
+name        : herdr
+version     : "0.8.0"
+release     : 1
+homepage    : https://herdr.dev
+upstreams   :
+    - https://github.com/herdrdev/herdr/archive/refs/tags/v0.8.0.tar.gz : 47bdb0753beb8a6b157cf2fec26fbe6b787f85ffea0dde579b0001d6cd663572
+summary     : herdr is a modern terminal multiplexer for coding agents
+description : |
+    Herdr is the runtime your coding agents live on — laptop, desktop, or a box you rent.
+    It holds real terminals open so the work survives the lid closing, and gets you back in from anything with a keyboard.
+license     : 
+    - Apache-2.0
+networking  : true
+builddeps   :
+    - binary(zig-0.15)
+environment : |
+    export ZIG=zig-0.15
+setup       : |
+    %cargo_fetch
+build       : |
+    %cargo_build
+install     : |
+    %cargo_install

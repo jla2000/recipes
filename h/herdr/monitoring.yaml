@@ -1,0 +1,5 @@
+releases:
+  id: 391761
+  rss: https://github.com/herdrdev/herdr/releases.atom
+security:
+  cpe: ~ # No CPE found, last checked (2026-08-13)
