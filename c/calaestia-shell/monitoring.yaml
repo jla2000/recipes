@@ -1,0 +1,28 @@
+# SPDX-FileCopyrightText: 2026 aerynOS Developers
+# SPDX-License-Identifier: MPL-2.0
+
+releases:
+  id: ~ # https://release-monitoring.org/ and use the numeric id in the url of project
+  rss: https://github.com/caelestia-dots/shell/releases.atom
+security:
+  cpe:
+  - vendor: oracle
+    product: mysql_shell
+  - vendor: ssh
+    product: secure_shell
+  - vendor: microsoft
+    product: azure_cloud_shell
+  - vendor: ssh
+    product: secure_shell_for_servers
+  - vendor: theforeman
+    product: smart_proxy_shell_hooks
+  - vendor: pepperl-fuchs
+    product: visunet_rm_shell
+  - vendor: quest
+    product: activeroles_management_shell_for_active_directory
+  - vendor: opentext
+    product: connectivity_secure_shell
+  - vendor: corel
+    product: shell_extension
+  - vendor: corel
+    product: coreldraw_windows_shell_extension

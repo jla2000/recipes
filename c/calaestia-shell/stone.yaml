@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2026 aerynOS Developers
+# SPDX-License-Identifier: MPL-2.0
+
+name        : shell
+version     : "2.3.0"
+release     : 1
+homepage    : https://github.com/caelestia-dots/shell
+upstreams   :
+    - https://github.com/caelestia-dots/shell/releases/download/v2.3.0/caelestia-shell-v2.3.0.tar.gz : 1233e7317c689d801ec095b5fd7290502e5f6ea214ef14b02375d35b5542e78e
+summary     : UPDATE SUMMARY
+description : |
+    UPDATE DESCRIPTION
+license     : 
+    - GPL-3.0-or-later
+    - GPL-3.0-only
+setup       : |
+    %cmake
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
